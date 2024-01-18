@@ -1,0 +1,15 @@
+C:\Users\fatih\source\repos\ReCapProject\Business\bin\Debug\netstandard2.1\Business.deps.json
+C:\Users\fatih\source\repos\ReCapProject\Business\bin\Debug\netstandard2.1\Business.dll
+C:\Users\fatih\source\repos\ReCapProject\Business\bin\Debug\netstandard2.1\Business.pdb
+C:\Users\fatih\source\repos\ReCapProject\Business\bin\Debug\netstandard2.1\DataAccess.dll
+C:\Users\fatih\source\repos\ReCapProject\Business\bin\Debug\netstandard2.1\Entities.dll
+C:\Users\fatih\source\repos\ReCapProject\Business\bin\Debug\netstandard2.1\DataAccess.pdb
+C:\Users\fatih\source\repos\ReCapProject\Business\bin\Debug\netstandard2.1\Entities.pdb
+C:\Users\fatih\source\repos\ReCapProject\Business\obj\Debug\netstandard2.1\Business.csproj.AssemblyReference.cache
+C:\Users\fatih\source\repos\ReCapProject\Business\obj\Debug\netstandard2.1\Business.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\fatih\source\repos\ReCapProject\Business\obj\Debug\netstandard2.1\Business.AssemblyInfoInputs.cache
+C:\Users\fatih\source\repos\ReCapProject\Business\obj\Debug\netstandard2.1\Business.AssemblyInfo.cs
+C:\Users\fatih\source\repos\ReCapProject\Business\obj\Debug\netstandard2.1\Business.csproj.CoreCompileInputs.cache
+C:\Users\fatih\source\repos\ReCapProject\Business\obj\Debug\netstandard2.1\Business.csproj.CopyComplete
+C:\Users\fatih\source\repos\ReCapProject\Business\obj\Debug\netstandard2.1\Business.dll
+C:\Users\fatih\source\repos\ReCapProject\Business\obj\Debug\netstandard2.1\Business.pdb
