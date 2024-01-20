@@ -5,6 +5,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Drawing;
 using System.Text;
+using System.Linq.Expressions;
 
 namespace DataAccess.Concrete.InMemory
 {
@@ -32,9 +33,19 @@ namespace DataAccess.Concrete.InMemory
             _cars.Remove(deleteId);
         }
 
+        public Car Get(Expression<Func<Car, bool>> filter)
+        {
+            throw new NotImplementedException();
+        }
+
         public List<Car> GetAll()
         {
             return _cars;
+        }
+
+        public List<Car> GetAll(Expression<Func<Car, bool>> filter = null)
+        {
+            throw new NotImplementedException();
         }
 
         public List<Car> GetById(int id)
