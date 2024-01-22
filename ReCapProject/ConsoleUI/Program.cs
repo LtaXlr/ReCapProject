@@ -12,9 +12,9 @@ namespace ConsoleUI
         {
             ICarService carService = new CarManager(new EfCarDal());
 
-            foreach (var car in carService.CarDailyPrice())
+            foreach (var car in carService.GetCarDetailDtos())
             {
-                Console.WriteLine(car.Description);
+                Console.WriteLine(car.BrandName);
             }
         }
     }

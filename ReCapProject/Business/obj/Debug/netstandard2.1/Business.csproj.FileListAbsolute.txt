@@ -13,3 +13,5 @@ C:\Users\fatih\source\repos\ReCapProject\Business\obj\Debug\netstandard2.1\Busin
 C:\Users\fatih\source\repos\ReCapProject\Business\obj\Debug\netstandard2.1\Business.csproj.CopyComplete
 C:\Users\fatih\source\repos\ReCapProject\Business\obj\Debug\netstandard2.1\Business.dll
 C:\Users\fatih\source\repos\ReCapProject\Business\obj\Debug\netstandard2.1\Business.pdb
+C:\Users\fatih\source\repos\ReCapProject\Business\bin\Debug\netstandard2.1\Core.dll
+C:\Users\fatih\source\repos\ReCapProject\Business\bin\Debug\netstandard2.1\Core.pdb
