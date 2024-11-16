@@ -1,29 +1,29 @@
-﻿using Business.Abstract;
-using Business.Concrete;
-using DataAccess.Abstract;
-using DataAccess.Concrete.EntityFramework;
-using Entities.Concrete;
-using System;
+﻿using Business.Abstracts;
+using Business.Concretes;
+using DataAccess.Concretes.EntityFramework;
+using Entities.Concretes;
+using System.Globalization;
 
-namespace ConsoleUI
+internal class Program
 {
-    public class Program
+    private static void Main(string[] args)
     {
-        static void Main(string[] args)
+        /*ICarService carService = new CarManager(new EfCarDal());
+        foreach (var car in carService.GetCarsDetailDto().Data)
         {
-            ICarService carService = new CarManager(new EfCarDal());
-            var result = carService.GetAll();
-            if (result.Success==true)
-            {
-                foreach (var car in result.Data)
-                {
-                    Console.WriteLine(car.Description);
-                }
-            }
-            else
-            {
-                Console.WriteLine(result.Message);
-            }
+            Console.WriteLine(car.CarName);
+            Console.WriteLine(car.ColorName);
+            Console.WriteLine(car.CarName);
+            Console.WriteLine(car.DailyPrice);
+            Console.WriteLine(car.BrandName);
+        }*/
+        IRentalService rentalService = new RentalManager(new EfRentalDal());
+        /*Rental myrental = new Rental() { CarId = 1, CustomerId = 1, RentDate = DateTime.Now, ReturnDate = null };
+        var result = rentalService.add(myrental);
+        Console.WriteLine(result.Message,' ',result.Success);*/
+        foreach (var item in rentalService.getAll().Data)
+        {
+            Console.WriteLine(item.RentId);
         }
     }
 }
