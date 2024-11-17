@@ -12,6 +12,8 @@ namespace Business.Abstracts
     {
         IResult add(Rental rental);
         IDataResult<List<Rental>> getAll();
-        IDataResult<Rental> getAllCarId(int id);
+        IDataResult<List<Rental>> getAllCarId(int id);
+        IDataResult<List<Rental>> getById(int id);
+        IDataResult<List<Rental>> getAllCustomerId(int id);
     }
 }

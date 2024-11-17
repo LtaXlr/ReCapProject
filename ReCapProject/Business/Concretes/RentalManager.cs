@@ -34,9 +34,18 @@ namespace Business.Concretes
             return new SuccessDataResult<List<Rental>>(_rentalDal.getAll(),TurkishMessages.RentalsListed);
         }
 
-        public IDataResult<Rental> getAllCarId(int id)
+        public IDataResult<List<Rental>> getAllCarId(int id)
         {
-            return new SuccessDataResult<Rental>(_rentalDal.get(r=>r.CarId==id), TurkishMessages.RentalsListed);
+            return new SuccessDataResult<List<Rental>>(_rentalDal.getAll(r => r.CarId == id), TurkishMessages.RentalCarsListed);
+        }
+        public IDataResult<List<Rental>> getAllCustomerId(int id)
+        {
+            return new SuccessDataResult<List<Rental>>(_rentalDal.getAll(r => r.CustomerId == id), TurkishMessages.RentalCustomersListed);
+        }
+
+        public IDataResult<List<Rental>> getById(int id)
+        {
+            return new SuccessDataResult<List<Rental>>(_rentalDal.getAll(r=>r.RentId==id),TurkishMessages.RentalListed);
         }
     }
 }

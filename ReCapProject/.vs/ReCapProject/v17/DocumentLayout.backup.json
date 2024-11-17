@@ -3,16 +3,11 @@
   "WorkspaceRootPath": "C:\\Users\\Pc\\source\\repos\\ReCapProject\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{FA8F7E41-EE99-43EF-A0E5-668D152D5357}|ConsoleUI\\ConsoleUI.csproj|c:\\users\\pc\\source\\repos\\recapproject\\consoleui\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{FA8F7E41-EE99-43EF-A0E5-668D152D5357}|ConsoleUI\\ConsoleUI.csproj|solutionrelative:consoleui\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|ViewDataWindow_MSSQL__/_localdb__MSSQLLocalDB/ReCapProjectDatabase/True/SqlTable/dbo.Colors.sql||{0058A1F7-65F3-4DB9-B3D0-CA7E64DD73CD}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{CA32D102-B6D1-4F56-BC45-4D90564D6210}|Business\\Business.csproj|c:\\users\\pc\\source\\repos\\recapproject\\business\\concretes\\rentalmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{CA32D102-B6D1-4F56-BC45-4D90564D6210}|Business\\Business.csproj|solutionrelative:business\\concretes\\rentalmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{CA32D102-B6D1-4F56-BC45-4D90564D6210}|Business\\Business.csproj|c:\\users\\pc\\source\\repos\\recapproject\\business\\abstracts\\irentalservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{CA32D102-B6D1-4F56-BC45-4D90564D6210}|Business\\Business.csproj|solutionrelative:business\\abstracts\\irentalservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{FCF90E07-612B-4425-8EDF-1E4A9382835D}|WepAPI\\WepAPI.csproj|c:\\users\\pc\\source\\repos\\recapproject\\wepapi\\controllers\\carscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FCF90E07-612B-4425-8EDF-1E4A9382835D}|WepAPI\\WepAPI.csproj|solutionrelative:wepapi\\controllers\\carscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -22,45 +17,29 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 0,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "RentalManager.cs",
-              "DocumentMoniker": "C:\\Users\\Pc\\source\\repos\\ReCapProject\\Business\\Concretes\\RentalManager.cs",
-              "RelativeDocumentMoniker": "Business\\Concretes\\RentalManager.cs",
-              "ToolTip": "C:\\Users\\Pc\\source\\repos\\ReCapProject\\Business\\Concretes\\RentalManager.cs",
-              "RelativeToolTip": "Business\\Concretes\\RentalManager.cs",
-              "ViewState": "AgIAAA4AAAAAAAAAAAAQwBwAAABCAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-16T08:44:51.472Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\Pc\\source\\repos\\ReCapProject\\ConsoleUI\\Program.cs",
-              "RelativeDocumentMoniker": "ConsoleUI\\Program.cs",
-              "ToolTip": "C:\\Users\\Pc\\source\\repos\\ReCapProject\\ConsoleUI\\Program.cs",
-              "RelativeToolTip": "ConsoleUI\\Program.cs",
-              "ViewState": "AgIAAAgAAAAAAAAAAAAQwBYAAAA9AAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-16T08:37:00.178Z",
+              "Title": "dbo.Colors [Data]",
+              "DocumentMoniker": "ViewDataWindow_MSSQL__/_localdb__MSSQLLocalDB/ReCapProjectDatabase/True/SqlTable/dbo.Colors.sql",
+              "ToolTip": "dbo.Colors [Data]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000826|",
+              "WhenOpened": "2024-11-17T18:20:48.219Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "IRentalService.cs",
-              "DocumentMoniker": "C:\\Users\\Pc\\source\\repos\\ReCapProject\\Business\\Abstracts\\IRentalService.cs",
-              "RelativeDocumentMoniker": "Business\\Abstracts\\IRentalService.cs",
-              "ToolTip": "C:\\Users\\Pc\\source\\repos\\ReCapProject\\Business\\Abstracts\\IRentalService.cs",
-              "RelativeToolTip": "Business\\Abstracts\\IRentalService.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "DocumentIndex": 1,
+              "Title": "CarsController.cs",
+              "DocumentMoniker": "C:\\Users\\Pc\\source\\repos\\ReCapProject\\WepAPI\\Controllers\\CarsController.cs",
+              "RelativeDocumentMoniker": "WepAPI\\Controllers\\CarsController.cs",
+              "ToolTip": "C:\\Users\\Pc\\source\\repos\\ReCapProject\\WepAPI\\Controllers\\CarsController.cs",
+              "RelativeToolTip": "WepAPI\\Controllers\\CarsController.cs",
+              "ViewState": "AgIAACAAAAAAAAAAAAAwwAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-16T08:44:46.552Z",
+              "WhenOpened": "2024-11-17T18:17:03.51Z",
               "EditorCaption": ""
             }
           ]

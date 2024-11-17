@@ -23,25 +23,25 @@ namespace Business.Concretes
         {
             if (car.Description.Length<3 && car.DailyPrice<0)
             {
-                return new ErrorResult(TurkishMessages.ProductAddedError);
+                return new ErrorResult(TurkishMessages.AddedCarRentalError);
             }
             _CarDal.add(car);
-            return new SucessResult(TurkishMessages.ProductAdded);
+            return new SucessResult(TurkishMessages.AddedCarRental);
         }
 
         public DataResult<List<Car>> GetCars()
         {
-            return new SuccessDataResult<List<Car>>(_CarDal.getAll(),TurkishMessages.ProductsListed);
+            return new SuccessDataResult<List<Car>>(_CarDal.getAll(),TurkishMessages.CarsListed);
         }
 
         public DataResult<List<Car>> getCarsByColorId(int id)
         {
-            return new SuccessDataResult<List<Car>>(_CarDal.getAll(c=>c.ColorId==id),TurkishMessages.ProductsListed);
+            return new SuccessDataResult<List<Car>>(_CarDal.getAll(c=>c.ColorId==id),TurkishMessages.CarsColorListed);
         }
 
         public DataResult<List<CarDetailDto>> GetCarsDetailDto()
         {
-            return new SuccessDataResult<List<CarDetailDto>>(_CarDal.GetAllDetailCar(),TurkishMessages.ProductsDetailListed);
+            return new SuccessDataResult<List<CarDetailDto>>(_CarDal.GetAllDetailCar(),TurkishMessages.CarsDetailListed);
         }
 
     }
